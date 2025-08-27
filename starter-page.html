@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Starter Page - iPortfolio Bootstrap Template</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Starter Page — Abel Katongore</title>
+  <meta content="Custom page scaffold for Abel Katongore’s portfolio—use this to add new content while keeping the site’s navigation and styling consistent." name="description">
+  <meta content="Abel Katongore, portfolio, starter page, custom page, Uganda, procurement, IS, research" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -15,7 +15,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,40 +26,38 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
- 
 </head>
 
 <body class="starter-page-page">
 
+  <!-- ======= Header ======= -->
   <header id="header" class="header dark-background d-flex flex-column">
-    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <i class="header-toggle d-xl-none bi bi-list" aria-label="Toggle navigation"></i>
 
     <div class="profile-img">
-      <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
+      <img src="assets/img/my-profile-img.jpg" alt="Abel Katongore" class="img-fluid rounded-circle">
     </div>
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-      <!-- Uncomment the line below if you also wish to use an image logo -->
-      <!-- <img src="assets/img/logo.png" alt=""> -->
-      <h1 class="sitename">Alex Smith</h1>
+      <h1 class="sitename">Abel Katongore</h1>
     </a>
 
     <div class="social-links text-center">
-      <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-      <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="mailto:abelkm9@gmail.com" class="google-plus" aria-label="Email Abel"><i class="bi bi-envelope"></i></a>
+      <a href="#" class="linkedin" aria-label="LinkedIn (add link)"><i class="bi bi-linkedin"></i></a>
+      <a href="#" class="twitter" aria-label="Twitter/X (add link)"><i class="bi bi-twitter-x"></i></a>
+      <a href="#" class="facebook" aria-label="Facebook (add link)"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="instagram" aria-label="Instagram (add link)"><i class="bi bi-instagram"></i></a>
     </div>
 
     <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a href="#hero"><i class="bi bi-house navicon"></i>Home</a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <!-- Link back to sections on the homepage -->
+        <li><a href="index.html#hero"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
         <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul>
             <li><a href="#">Dropdown 1</a></li>
@@ -77,11 +75,11 @@
             <li><a href="#">Dropdown 4</a></li>
           </ul>
         </li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+        <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
     </nav>
-
   </header>
+  <!-- End Header -->
 
   <main class="main">
 
@@ -96,44 +94,81 @@
           </ol>
         </nav>
       </div>
-    </div><!-- End Page Title -->
+    </div>
+    <!-- End Page Title -->
 
-    <!-- Starter Section Section -->
+    <!-- Starter Section -->
     <section id="starter-section" class="starter-section section">
-
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Starter Section</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up">
-        <p>Use this page as a starter for your own custom pages.</p>
+        <h2>Custom Page Scaffold</h2>
+        <p>This page is a clean starting point for new content—research updates, project notes, or announcements—while keeping the site’s navigation and styles intact.</p>
       </div>
+      <!-- End Section Title -->
 
-    </section><!-- /Starter Section Section -->
+      <div class="container" data-aos="fade-up" data-aos-delay="50">
+        <div class="row g-4">
+          <div class="col-lg-7">
+            <div class="p-4 rounded-3 border">
+              <h3 class="h5 mb-3">Suggested Uses</h3>
+              <ul class="mb-0">
+                <li>Publish a short article or research log entry.</li>
+                <li>Share a project brief with goals, milestones, and results.</li>
+                <li>Host workshop materials or mentoring resources.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="p-4 rounded-3 light-background">
+              <h3 class="h5 mb-3">Quick Links</h3>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><i class="bi bi-arrow-right-short"></i> <a href="index.html#portfolio">Back to Portfolio</a></li>
+                <li class="mb-2"><i class="bi bi-arrow-right-short"></i> <a href="index.html#services">See Services</a></li>
+                <li class="mb-2"><i class="bi bi-arrow-right-short"></i> <a href="index.html#contact">Contact Abel</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Placeholder content block you can replace -->
+        <div class="mt-5" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="h5">Example Section</h3>
+          <p class="mb-0">Replace this with your content. Keep headings semantic (H2/H3), use short paragraphs, and consider bullets for clarity.</p>
+        </div>
+      </div>
+    </section>
+    <!-- /Starter Section -->
 
   </main>
 
+  <!-- ======= Footer (auto-year + email CTA) ======= -->
   <footer id="footer" class="footer position-relative light-background">
-
     <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com">ThemeWagon</a>
+      <div class="row align-items-center gy-3">
+
+        <div class="col-md">
+          <div class="copyright text-md-start text-center">
+            <p class="mb-0">
+              © <span id="site-year"></span> <strong class="px-1 sitename">Abel</strong>. All rights reserved.
+            </p>
+          </div>
+          <div class="credits text-md-start text-center small mt-1">
+            Designed by <a href="mailto:abelkm9@gmail.com" aria-label="Email Abel Katongore">Abel Katongore</a>
+          </div>
+        </div>
+
+        <div class="col-md-auto text-md-end text-center">
+          <a href="mailto:abelkm9@gmail.com" class="btn btn-sm btn-primary rounded-pill px-3" aria-label="Send email to Abel Katongore">
+            <i class="bi bi-envelope me-1"></i> Email Abel
+          </a>
+        </div>
+
       </div>
     </div>
-
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Scroll to top"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
@@ -153,6 +188,13 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
-</body>
+  <!-- Tiny helper: auto year -->
+  <script>
+    (function () {
+      var y = document.getElementById('site-year');
+      if (y) y.textContent = new Date().getFullYear();
+    })();
+  </script>
 
+</body>
 </html>
